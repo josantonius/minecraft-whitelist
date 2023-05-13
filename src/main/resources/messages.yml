@@ -1,0 +1,54 @@
+# This file contains all the messages required for the plugin.
+# DO NOT delete any messages here completely or it may break the plugin.
+# You're free to change them as you please, however.
+# You can find more information about this file here:
+# https://github.com/josantonius/minecraft-whitelist
+
+advise:
+  player:
+    attempt_join: "<gold>A <hover:show_text:'<aqua>{1}'><white>[Player]</hover> <gold>attempted to join the server <gray>- <hover:show_text:'<aqua>Click to run /wl add {1}'><click:run_command:/wl add {1}><yellow>[Click here to add]</click></hover>"
+
+console:
+  player:
+    inside: "<green>{1} is on the whitelist"
+    outside: "<gold>{1} is not on the whitelist"
+
+help:
+  header: "<white>COMMANDS"
+  add: "<gold>{1}<gray> - <dark_aqua>Add player to the whitelist"
+  remove: "<gold>{1}<gray> - <dark_aqua>Remove player from whitelist"
+  info: "<gold>{1}<gray> - <dark_aqua>Check if is on the whitelist"
+  enable: "<gold>{1}<gray> - <dark_aqua>Enable the whitelist"
+  disable: "<gold>{1}<gray> - <dark_aqua>Disable the whitelist"
+  reload: "<gold>{1}<gray> - <dark_aqua>Reload the plugin"
+
+error:
+  command:
+    invalid_argument: "<red>Invalid argument!"
+    permission: "<red>You do not have permission to use this command"
+
+  player:
+    already_on: "<white>{1}<red> is already on the whitelist"
+    not_on: "<white>{1}<red> is not on the whitelist"
+    removed: "<red>You have been removed from the whitelist"
+
+kick:
+  message: "<red>You are not on the whitelist"
+  online_message: "You are not on the whitelist"
+
+list:
+  header: "<white>LIST OF PLAYERS"
+  player: "<gray>- <gold>{1}"
+
+player:
+  added: "<white>{1} <green>added to the whitelist"
+  removed: "<white>{1} <green>removed from the whitelist"
+  exists: "<white>{1} <gold>is on the whitelist"
+  not_exists: "<white>{1} <gold>is not on the whitelist"
+
+plugin:
+  reloaded: "<green>Plugin reloaded successfully!"
+
+whitelist:
+  enable: "<green>Whitelist enabled!"
+  disable: "<green>Whitelist disabled!"

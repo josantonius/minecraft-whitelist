@@ -1,0 +1,18 @@
+name: Whitelist
+version: 1.0.0
+main: dev.josantonius.minecraft.whitelist.Main
+api-version: 1.19
+author: Josantonius
+description: A basic whitelist plugin based on player nicknames only.
+
+commands:
+  wl:
+    description: Manage the whitelist.
+    usage: /<command> add|remove|on|off|info|reload|help <player>
+    permission: wl.admin
+    permission-message: "&cYou don't have permission to use this command."
+
+permissions:
+  wl.admin:
+    description: Allows to manage the whitelist.
+    default: op

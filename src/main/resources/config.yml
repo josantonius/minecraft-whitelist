@@ -1,0 +1,21 @@
+# This file contains all the messages required for the plugin
+# DO NOT delete any messages here completely or it may break the plugin
+# You're free to configure/change them as you please, however.
+# You can find more information about this file here:
+# https://github.com/josantonius/minecraft-whitelist
+
+# Enable or disable the whitelist. If enabled, only players on the whitelist will be able
+# to join the server. If disabled, all players will be able to join the server.
+enabled: true
+
+# Exclude ops from the whitelist. If enabled, ops will be able to join the server even
+# if they are not on the whitelist. If disabled, ops will not be able to join the server if
+# they are not on the whitelist.
+excludeOps: true
+
+# Kick players who are not on the whitelist. If enabled, players who are not on the whitelist
+# will be kicked from the server when use the command "/wl on" or "wl del <player>".
+kickPlayers: true
+
+# Notify ops when a player tries to connect to the server and is not on the whitelist.
+notifyOps: true
