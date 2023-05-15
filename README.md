@@ -1,6 +1,5 @@
 # Minecraft PvP Plugin
 
-[![Release](https://jitpack.io/v/dev.josantonius/minecraft-whitelist.svg)](https://jitpack.io/#dev.josantonius/minecraft-whitelist)
 [![License](https://img.shields.io/github/license/josantonius/minecraft-whitelist)](LICENSE)
 
 A basic whitelist plugin based on player nicknames only.
